@@ -1,6 +1,8 @@
 import React from 'react';
 import { Spotlight } from './ui/Spotlight';
 import { TextGenerateEffect } from './ui/TextGenerateEffect';
+import MagicButton from './ui/MagicButton';
+import { IoMdDownload } from 'react-icons/io';
 
 const Hero = () => {
   return (
@@ -25,7 +27,7 @@ const Hero = () => {
             <TextGenerateEffect className='text-center text-[40px] md:text-5xl lg:text-6xl'
             words = "Welcome to my Portfolio!"/>
             <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>Hi, I'm Naina Johri</p>
-            <a href=""> </a>
+            <a href="https://drive.google.com/file/d/1kj2uMYh_tnsJllr5s_K7Dl8NUGiE-JrV/view?usp=sharing" target='_blank'><MagicButton title="Download"  icon={<IoMdDownload />} position='right'/> </a>
           </div>
         </div>
       </div>
